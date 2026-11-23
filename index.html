@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="km" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSE HUOKAING THARA - Prank Home / ទំព័រដើមកម្មវិធីលេងសើច</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="universe_huokaingthara.jpg">
+</head>
+<body>
+
+    <!-- Holographic Scanline Overlay -->
+    <div id="holo-overlay"></div>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="logo-container">
+            <i class="fa-solid fa-masks-theater spin-icon"></i>
+            <h1>UNIVERSE HUOKAING THARA <span class="sub-title">ទំព័រដើមកម្មវិធីលេងសើច / Prank Home</span></h1>
+        </div>
+        <div class="controls">
+            <button id="langToggleBtn" class="control-btn">🇰🇭 / EN</button>
+            <button id="themeToggleBtn" class="control-btn"><i class="fa-solid fa-moon"></i></button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-container">
+
+        <!-- Hero Section -->
+        <section class="hero-card">
+            <div class="badge">🎭 UNIVERSE HUOKAING THARA • PRANK & COMEDY HUB</div>
+            <h2 class="km">កម្មវិធីលេងសើចកម្សាន្ត សំណើច និងភាពភ្ញាក់ផ្អើលប្រកបដោយសុវត្ថិភាព</h2>
+            <h2 class="en">Lighthearted Pranks, Comedy Reactions & Safe Entertainment</h2>
+            <p class="km">
+                ស្វាគមន៍មកកាន់ទំព័រដើមកម្មវិធីលេងសើចរបស់ <strong>UNIVERSE HUOKAING THARA Group</strong> ក្រោមការដឹកនាំរបស់ លោក <strong>ហួកាំង ថារ៉ា</strong> និងលោក <strong>សេង ឆាត</strong> រួមជាមួយការរួមចំណែកពីលោក <strong>ជອນ រតនៈ</strong> និងក្រុមអ្នកសរសេរកូដជំនាញ។
+            </p>
+            <p class="en">
+                Welcome to the prank entertainment home of <strong>UNIVERSE HUOKAING THARA Group</strong> under <strong>Mr. Huokaing Thara</strong> and <strong>Mr. Seng Chhat</strong>, with contributions from <strong>Mr. Chorn Rothanak</strong> and our elite programmers & developers.
+            </p>
+
+            <!-- Search & Filter Bar -->
+            <div class="search-filter-bar">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="prankSearch" placeholder="ស្វែងរកកម្មវិធីលេងសើច... / Search pranks, comedy, reactions, street...">
+                </div>
+                <div class="filter-pills">
+                    <button class="pill-btn active" data-filter="all">All / ទាំងអស់</button>
+                    <button class="pill-btn" data-filter="comedy">Comedy / កំប្លែង</button>
+                    <button class="pill-btn" data-filter="reaction">Reactions / ប្រតិកម្ម</button>
+                    <button class="pill-btn" data-filter="challenge">Friendly Games / ល្បែងសប្បាយ</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prank Episodes Grid -->
+        <section class="prank-section">
+            <h3 class="section-heading">
+                <i class="fa-solid fa-face-laugh-squint"></i>
+                <span class="km">វគ្គកម្សាន្ត និងលេងសើចលេចធ្លោ (Featured Prank Showcases)</span>
+                <span class="en">Featured Prank Showcases</span>
+            </h3>
+
+            <div class="prank-grid" id="prankGrid">
+
+                <!-- Prank 1 -->
+                <article class="prank-card featured" data-cat="comedy">
+                    <div class="card-top">
+                        <span class="prank-code">PRK-01 • COMEDY</span>
+                        <span class="status-pill">POPULAR</span>
+                    </div>
+                    <h4 class="km">ការភ្ញាក់ផ្អើលនៅការិយាល័យ និងសំណើច</h4>
+                    <h4 class="en">Office Twist — Lighthearted Comedy</h4>
+                    <p class="km">ឈុតកំប្លែងលេងសើចប្រកបដោយភាពស្និទ្ធស្នាល និងបង្កើតសំណើចដោយគ្មានការប៉ះពាល់ដល់អ្នកដទៃ។</p>
+                    <p class="en">Upbeat comedic setup designed for friendly surprise, laughter, and positive audience entertainment.</p>
+                    <div class="card-footer">
+                        <span class="prank-meta"><i class="fa-solid fa-laugh"></i> Safe Comedy</span>
+                        <button class="inspect-btn"
+                            data-title="ការភ្ញាក់ផ្អើលនៅការិយាល័យ / Office Twist"
+                            data-category="Comedy & Friendly Surprise"
+                            data-format="Short Comedy Sketch"
+                            data-notes="Produced under respectful entertainment standards with clear reveal moments.">
+                            <span class="km">មើលលម្អិត</span> / <span class="en">Episode Info</span>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Prank 2 -->
+                <article class="prank-card" data-cat="reaction">
+                    <div class="card-top">
+                        <span class="prank-code">PRK-02 • REACTIONS</span>
+                        <span class="status-pill">TRENDING</span>
+                    </div>
+                    <h4 class="km">ប្រតិកម្មភ្លាមៗ និងការបកស្រាយបែបកំប្លែង</h4>
+                    <h4 class="en">Instant Reactions & Funny Reveals</h4>
+                    <p class="km">កត់ត្រាប្រតិកម្មគួរឱ្យអស់សំណើច និងការបញ្ចប់បែបរីករាយសម្រាប់អ្នកទស្សនាគ្រប់វ័យ។</p>
+                    <p class="en">Captures genuine surprised reactions and cheerful reveals tailored for light entertainment.</p>
+                    <div class="card-footer">
+                        <span class="prank-meta"><i class="fa-solid fa-face-surprise"></i> Reactions</span>
+                        <button class="inspect-btn"
+                            data-title="ប្រតិកម្មភ្លាមៗ / Instant Reactions"
+                            data-category="Reactions & Funny Reveals"
+                            data-format="Reaction Compilation"
+                            data-notes="Part of the UNIVERSE HUOKAING THARA entertainment lineup with dual-language captions.">
+                            <span class="km">មើលលម្អិត</span> / <span class="en">Episode Info</span>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Prank 3 -->
+                <article class="prank-card" data-cat="challenge">
+                    <div class="card-top">
+                        <span class="prank-code">PRK-03 • FRIENDLY GAME</span>
+                        <span class="status-pill">NEW</span>
+                    </div>
+                    <h4 class="km">ល្បែងសាកល្បងសប្បាយ និងបញ្ហាប្រឈមស្រាលៗ</h4>
+                    <h4 class="en">Friendly Challenge — Light Fun</h4>
+                    <p class="km">ល្បែងកម្សាន្តបែបប្រកួតប្រជែងស្រាលៗ ដែលផ្តោតលើភាពរីករាយ និងសាមគ្គីភាពក្រុម។</p>
+                    <p class="en">Playful team challenges focused on fun twists, light competition, and good spirits.</p>
+                    <div class="card-footer">
+                        <span class="prank-meta"><i class="fa-solid fa-gamepad"></i> Friendly Games</span>
+                        <button class="inspect-btn"
+                            data-title="ល្បែងសាកល្បងសប្បាយ / Friendly Challenge"
+                            data-category="Friendly Games & Fun Twists"
+                            data-format="Interactive Fun Segment"
+                            data-notes="Built with the signature UNIVERSE HUOKAING THARA web interface and bilingual support.">
+                            <span class="km">មើលលម្អិត</span> / <span class="en">Episode Info</span>
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Prank Details Modal -->
+    <div id="prankModal" class="modal-backdrop hidden">
+        <div class="modal-card">
+            <span class="modal-badge">PRANK EPISODE BRIEF</span>
+            <h3 id="modalPrankTitle">Episode Title</h3>
+            <div class="modal-body">
+                <p><strong>Category:</strong> <span id="modalPrankCategory" class="accent-txt"></span></p>
+                <p><strong>Format:</strong> <span id="modalPrankFormat"></span></p>
+                <p id="modalPrankNotes" class="modal-notes"></p>
+            </div>
+            <button id="closePrankModal" class="control-btn full-width">
+                <span class="km">បិទផ្ទាំង</span> / <span class="en">Close</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 UNIVERSE HUOKAING THARA Group. All Rights Reserved. / រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
